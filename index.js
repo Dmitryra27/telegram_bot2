@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 const token = prosess.env.TOKEN;
 const url = prosess.env.URL;
-
+const a = ''
 const bot = new TelegramBot(token, {polling: true});
 const app_url = URL
 bot.on('message', async (msg) => {
